@@ -6,6 +6,11 @@
 
 ```
 # 参考: https://codewithhugo.com/fix-git-failed-to-push-updates-were-rejected/
+
+$ cd <project folder>
+$ git pull
+$ git reset --hard origin/main
+$ git stash
 ```
 
 ### 拉取静态网站
